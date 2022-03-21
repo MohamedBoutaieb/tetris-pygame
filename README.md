@@ -8,9 +8,10 @@ Just clone the project and execute the script with a python compiler
   <li> down : speed up </li>
   <li> up : make the piece fall into its place</li>
   <li> x : rotate </li>
-  <li> h : shadow assistance <li>
+  <li> h : shadow assistance </li>
   </ul>
 <h2> Score <h2>
+
 level | points for 1 line | points for 2 lines | points for 3 lines | points for 4 lines 
 ------------ | ------------- | ------------ | ------------- | ------------ | -------------
 1 | 40 | 100 | 300 | 400
