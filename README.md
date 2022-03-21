@@ -20,3 +20,4 @@ Just clone the project and execute the script with a python compiler
 
 <h2> About the game </h2>
 The game board can be percieved this way :
+![Alt Text]('example.png')
