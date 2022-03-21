@@ -3,12 +3,13 @@
 Just clone the project and execute the script with a python compiler
 <h2> Controls <h2>
 <ul>
-  <li>left arrow : move the piece left  </li>
-  <li>right arrow : move the piece to the right  </li>
+  <li>left arrow : move the block left  </li>
+  <li>right arrow : move the block to the right  </li>
   <li> down : speed up </li>
-  <li> up : make the piece fall into its place</li>
+  <li> up : make the block fall into its place</li>
   <li> x : rotate </li>
   <li> h : shadow assistance </li>
+  <li> p :pause </li>
   </ul>
 <h2> Score <h2>
   <table> <th>level  </th> <th> points for 1 line </th> <th> points for 2 lines </th> <th> points for 3 lines </th> <th> points for 4 lines </th>
@@ -22,3 +23,13 @@ Just clone the project and execute the script with a python compiler
 The game board can be percieved this way :
 
   ![](/example.png)
+Each sell of the board contains either None or a tuple containing the rgb color for the block after landing on its final position.
+Each time you land a block , the cells content will be replaced by its respective rgb color tuple and you will get a new block in hand.
+The white cells on the side exist to verify the possibility of a rotation or a translation on the sides , if a piece or a part of it have coordinates that correspond to these white boundaries , the movement is not possible and is automatically canceled .
+  <h5> Are the new blocks totally random ? </h5>
+  To avoid having 5 consecutive blocks of the same kind , the new blocks are randomly chosen from a bag containing all the 7 blocks , each time a piece is chosen, it's 
+ discarded from the bag until all pieces are discarded then it's refilled again .
+ 
+The fps was initially shown to demonstrate a smooth tetris exeperience but the smooth movement ( 1 pixel at a time instead of 1 cell at time) doesn't allow some critical movements :
+ ![](/example2.png)
+  
