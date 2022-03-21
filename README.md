@@ -11,12 +11,12 @@ Just clone the project and execute the script with a python compiler
   <li> h : shadow assistance </li>
   </ul>
 <h2> Score <h2>
-
-level | points for 1 line | points for 2 lines | points for 3 lines | points for 4 lines 
+  <table> <th>level  </th>| points for 1 line | points for 2 lines | points for 3 lines | points for 4 lines 
 ------------ | ------------- | ------------ | ------------- | ------------ | -------------
 1 | 40 | 100 | 300 | 400
 2 | 80 | 200 | 600 | 800
 k | k*40 | k*100 | k*200 | k*400
-10 | 400 | 1000 | 2000 | 4000
+10 | 400 | 1000 | 2000 | 4000</table>
+
 <h2> About the game <h2>
 
