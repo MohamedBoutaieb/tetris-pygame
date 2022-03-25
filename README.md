@@ -5,7 +5,6 @@
 
 
 
-
 <h1>Technologies used : </h1>Symfony 
                      PHP
                      CSS
