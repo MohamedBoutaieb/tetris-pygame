@@ -19,9 +19,10 @@
 <tr><td>10 </td><td> 400 </td><td> 1000</td><td> 2000 </td><td> 4000</td></tr>
   </table>
 
+ ![](/tetris.png)
 <h2> About the game </h2>
 The game board can be percieved this way :
-
+  
   ![](/example.png)
 Each sell of the board contains either None or a tuple containing the rgb color for the block after landing on its final position.
 Each time you land a block , the cells content will be replaced by its respective rgb color tuple and you will get a new block in hand.
