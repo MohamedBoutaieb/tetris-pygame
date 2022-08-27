@@ -1,6 +1,6 @@
 # tetris-pygame
 <h1> How to play </h1>
-Just clone the project and execute the script with a python compiler
+ clone the project and execute the script tetris.py with a python compiler 
 <h2> Controls <h2>
 <ul>
   <li>left arrow : move the block left  </li>

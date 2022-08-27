@@ -140,6 +140,7 @@ class Block:
 
     def drawShadow(self):
         temp = copy.deepcopy(self)
+        temp.level = 0
         while temp.endLife == False:
             for i in range(0, 4):
                 temp.position[i][1] += temp.unit
